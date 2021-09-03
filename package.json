@@ -1,0 +1,16 @@
+{
+  "name": "playwrighttest",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "playwright test",
+    "report": "allure generate allure-results --clean && allure open allure-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.14.1",
+    "allure-playwright": "2.0.0-beta.11",
+    "allure-commandline": "2.13.8"
+  }
+}
