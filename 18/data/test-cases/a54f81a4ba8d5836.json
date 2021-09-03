@@ -1,0 +1,214 @@
+{
+  "uid" : "a54f81a4ba8d5836",
+  "name" : "1 > 1 @smoke",
+  "fullName" : "1 > 1 @smoke",
+  "historyId" : "Chrome Stable tests/first.spec.ts two tests one 1 > 1 @smoke",
+  "time" : {
+    "start" : 1630674999040,
+    "stop" : 1630675000866,
+    "duration" : 1826
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome Stable"
+  }, {
+    "name" : "suite",
+    "value" : "tests/first.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "two tests one"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "7f11c8c07419df09",
+        "reportUrl" : "https://avient.github.io/playwright_test/17//#testresult/7f11c8c07419df09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630674707220,
+          "stop" : 1630674716896,
+          "duration" : 9676
+        }
+      }, {
+        "uid" : "71b7fa387b59f634",
+        "reportUrl" : "https://avient.github.io/playwright_test/16//#testresult/71b7fa387b59f634",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630673968668,
+          "stop" : 1630673970862,
+          "duration" : 2194
+        }
+      }, {
+        "uid" : "ad452be2721a953a",
+        "reportUrl" : "https://avient.github.io/playwright_test/15//#testresult/ad452be2721a953a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630673698668,
+          "stop" : 1630673701110,
+          "duration" : 2442
+        }
+      }, {
+        "uid" : "6727f9aae8609776",
+        "reportUrl" : "https://avient.github.io/playwright_test/14//#testresult/6727f9aae8609776",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630672894588,
+          "stop" : 1630672902239,
+          "duration" : 7651
+        }
+      }, {
+        "uid" : "5c680365241264c1",
+        "reportUrl" : "https://avient.github.io/playwright_test/13//#testresult/5c680365241264c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630672705229,
+          "stop" : 1630672711772,
+          "duration" : 6543
+        }
+      }, {
+        "uid" : "dbcfc1e3684b609a",
+        "reportUrl" : "https://avient.github.io/playwright_test/12//#testresult/dbcfc1e3684b609a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630672560129,
+          "stop" : 1630672562059,
+          "duration" : 1930
+        }
+      }, {
+        "uid" : "ebec36f17dd83518",
+        "reportUrl" : "https://avient.github.io/playwright_test/11//#testresult/ebec36f17dd83518",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630672238716,
+          "stop" : 1630672240803,
+          "duration" : 2087
+        }
+      }, {
+        "uid" : "e0aa8d040c02f657",
+        "reportUrl" : "https://avient.github.io/playwright_test/10//#testresult/e0aa8d040c02f657",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630671928169,
+          "stop" : 1630671930530,
+          "duration" : 2361
+        }
+      }, {
+        "uid" : "6dfddbe629794f3c",
+        "reportUrl" : "https://avient.github.io/playwright_test/9//#testresult/6dfddbe629794f3c",
+        "status" : "broken",
+        "statusDetails" : "Pending operations:\n  - page.title at node_modules/@playwright/test/lib/test/matchers/matchers.js:202:23\n\nexpect(received).toHaveTitle(expected)\n\nExpected pattern: /Playwright/\nReceived string:  undefined",
+        "time" : {
+          "start" : 1630671695900,
+          "stop" : 1630671701824,
+          "duration" : 5924
+        }
+      }, {
+        "uid" : "f01626e3e405acf2",
+        "reportUrl" : "https://avient.github.io/playwright_test/8//#testresult/f01626e3e405acf2",
+        "status" : "broken",
+        "statusDetails" : "Pending operations:\n  - page.goto at tests/first.spec.ts:5:16\n\nexpect(received).toHaveTitle(expected)\n\nExpected pattern: /Playwright/\nReceived string:  undefined",
+        "time" : {
+          "start" : 1630671527953,
+          "stop" : 1630671534586,
+          "duration" : 6633
+        }
+      }, {
+        "uid" : "f089eb7bc89b45a3",
+        "reportUrl" : "https://avient.github.io/playwright_test/7//#testresult/f089eb7bc89b45a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630670836203,
+          "stop" : 1630670838240,
+          "duration" : 2037
+        }
+      }, {
+        "uid" : "571f467483309fd8",
+        "reportUrl" : "https://avient.github.io/playwright_test/6//#testresult/571f467483309fd8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630670413814,
+          "stop" : 1630670418523,
+          "duration" : 4709
+        }
+      }, {
+        "uid" : "461eb6324d9679ee",
+        "reportUrl" : "https://avient.github.io/playwright_test/5//#testresult/461eb6324d9679ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630666104682,
+          "stop" : 1630666106753,
+          "duration" : 2071
+        }
+      }, {
+        "uid" : "3041a225370f53ca",
+        "reportUrl" : "https://avient.github.io/playwright_test/4//#testresult/3041a225370f53ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630665949605,
+          "stop" : 1630665950940,
+          "duration" : 1335
+        }
+      }, {
+        "uid" : "57583f71df4dc6e6",
+        "reportUrl" : "https://avient.github.io/playwright_test/3//#testresult/57583f71df4dc6e6",
+        "status" : "broken",
+        "statusDetails" : "Pending operations:\n  - page.goto at tests/first.spec.ts:5:16\n\npage.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://playwright.dev/\", waiting until \"load\"\n============================================================",
+        "time" : {
+          "start" : 1630665394488,
+          "stop" : 1630665401633,
+          "duration" : 7145
+        }
+      }, {
+        "uid" : "54856594e41d0bef",
+        "reportUrl" : "https://avient.github.io/playwright_test/2//#testresult/54856594e41d0bef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630664695535,
+          "stop" : 1630664696724,
+          "duration" : 1189
+        }
+      }, {
+        "uid" : "d5b561c20482493d",
+        "reportUrl" : "https://avient.github.io/playwright_test/1//#testresult/d5b561c20482493d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630662957858,
+          "stop" : 1630662959910,
+          "duration" : 2052
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a54f81a4ba8d5836.json",
+  "parameterValues" : [ ]
+}
