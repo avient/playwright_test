@@ -55,7 +55,7 @@ jobs:
           npm run report-gh
           ls -lah
 
-      - name: Test marketplace action
+      - name: Allure Report action
         uses: simple-elf/allure-report-action@master
         if: always()
         id: allure-report
@@ -66,12 +66,13 @@ jobs:
           allure_history: allure-history
           keep_reports: 5
 
-      - name: Replace report
+      - name: Replace Allure report
         if: always()
         run: |
           ls -lah gh-pages
-          rm -R ./gh-pages/${{ github.run_number }}/
-          mv ./allure-report-temp ./gh-pages/${{ github.run_number }}
+          ls -lah allure-history
+          rm -R ./allure-history/${{ github.run_number }}/
+          mv ./allure-report-temp ./allure-history/${{ github.run_number }}
 
       - name: Deploy report to Github Pages
         if: always()
