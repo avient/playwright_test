@@ -21,6 +21,14 @@ jobs:
       - run: npm ci
       - run: npx playwright install
       - run: npm test
+      - run: npm run report
+
+      - uses: actions/upload-artifact@master
+        if: always()
+        with:
+          name: allure-report
+          path: allure-report
+          retention-days: 20
 
       - uses: actions/upload-artifact@master
         if: always()

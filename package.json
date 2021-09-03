@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "playwright test",
-    "report": "allure generate allure-results --clean && allure open allure-report"
+    "report": "allure generate allure-results --clean"
   },
   "author": "",
   "license": "ISC",
