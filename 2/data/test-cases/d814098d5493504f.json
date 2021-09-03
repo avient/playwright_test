@@ -1,0 +1,67 @@
+{
+  "uid" : "d814098d5493504f",
+  "name" : "2 > 2 @smoke",
+  "fullName" : "2 > 2 @smoke",
+  "historyId" : "Chrome Stable tests/second.spec.ts two tests second 2 > 2 @smoke",
+  "time" : {
+    "start" : 1630664701533,
+    "stop" : 1630664702067,
+    "duration" : 534
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome Stable"
+  }, {
+    "name" : "suite",
+    "value" : "tests/second.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "two tests second"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e5896aea20eb323b",
+        "reportUrl" : "https://avient.github.io/playwright_test/1//#testresult/e5896aea20eb323b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630662970277,
+          "stop" : 1630662970855,
+          "duration" : 578
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d814098d5493504f.json",
+  "parameterValues" : [ ]
+}
