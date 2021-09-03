@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://avient.github.io/playwright_test",
+  "buildOrder" : 8,
+  "buildName" : "GitHub Actions Run #1197948867",
+  "buildUrl" : "https://github.com/avient/playwright_test/actions/runs/1197948867",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://avient.github.io/playwright_test/8/"
+} ]
