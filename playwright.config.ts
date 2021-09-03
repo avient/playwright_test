@@ -44,6 +44,7 @@ const config: PlaywrightTestConfig = {
   retries: 1,
   timeout: 5000,
   workers: 2,
+  outputDir: 'allure-results',
   reporter: [
     ['list'],
     ['allure-playwright']
