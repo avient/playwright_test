@@ -22,24 +22,6 @@ jobs:
       - run: npx playwright install
       - run: npm test
 
-#      - name: Generate report
-#        if: always()
-#        run: npm run report
-
-#      - uses: actions/upload-artifact@master
-#        if: always()
-#        with:
-#          name: allure-report
-#          path: allure-report
-#          retention-days: 10
-
-      - uses: actions/upload-artifact@master
-        if: always()
-        with:
-          name: allure-results
-          path: allure-results
-          retention-days: 10
-
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
