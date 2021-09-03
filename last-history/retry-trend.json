@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 16,
+  "reportUrl" : "https://avient.github.io/playwright_test/16/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 4,
+    "retry" : 2
+  }
+}, {
   "buildOrder" : 15,
   "reportUrl" : "https://avient.github.io/playwright_test/15/",
   "reportName" : "Allure Report with history",

@@ -9,8 +9,7 @@
       "total" : 16
     },
     "items" : [ {
-      "uid" : "1b738dd20eb0ad88",
-      "reportUrl" : "https://avient.github.io/playwright_test/16//#testresult/1b738dd20eb0ad88",
+      "uid" : "d971c14034e9c6d2",
       "status" : "failed",
       "statusDetails" : "expect(received).toHaveTitle(expected)\n\nExpected pattern: /Playwright1/\nReceived string:  \"Fast and reliable end-to-end testing for modern web apps | Playwright\"",
       "time" : {
@@ -180,8 +179,7 @@
       "total" : 16
     },
     "items" : [ {
-      "uid" : "71b7fa387b59f634",
-      "reportUrl" : "https://avient.github.io/playwright_test/16//#testresult/71b7fa387b59f634",
+      "uid" : "27556ec7dbd02ed0",
       "status" : "passed",
       "time" : {
         "start" : 1630673968668,
@@ -338,8 +336,7 @@
       "total" : 16
     },
     "items" : [ {
-      "uid" : "9d86bd1e65bee97a",
-      "reportUrl" : "https://avient.github.io/playwright_test/16//#testresult/9d86bd1e65bee97a",
+      "uid" : "79b53cdc5ce5b50a",
       "status" : "passed",
       "time" : {
         "start" : 1630673970863,
@@ -493,8 +490,7 @@
       "total" : 16
     },
     "items" : [ {
-      "uid" : "d900f1773398bfa4",
-      "reportUrl" : "https://avient.github.io/playwright_test/16//#testresult/d900f1773398bfa4",
+      "uid" : "e7f7d7b123e979a7",
       "status" : "passed",
       "time" : {
         "start" : 1630673979406,
