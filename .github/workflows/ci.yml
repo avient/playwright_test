@@ -71,7 +71,7 @@ jobs:
         run: |
           ls -lah gh-pages
           ls -lah allure-history
-          rm -R ./allure-history/${{ github.run_number }}/
+          sudo rm -R ./allure-history/${{ github.run_number }}/
           mv ./allure-report-temp ./allure-history/${{ github.run_number }}
 
       - name: Deploy report to Github Pages

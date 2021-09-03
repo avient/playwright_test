@@ -42,7 +42,7 @@ const config: PlaywrightTestConfig = {
     trace: 'on-first-retry',
   },
   retries: 1,
-  timeout: 5000,
+  timeout: 10000,
   workers: 2,
   outputDir: 'allure-results',
   reporter: [
