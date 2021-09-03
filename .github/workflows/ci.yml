@@ -21,6 +21,7 @@ jobs:
       - run: npm ci
       - run: npx playwright install
       - run: npm test
+
       - name: Generate report
         if: always()
         run: npm run report
@@ -30,14 +31,14 @@ jobs:
         with:
           name: allure-report
           path: allure-report
-          retention-days: 20
+          retention-days: 10
 
       - uses: actions/upload-artifact@master
         if: always()
         with:
           name: allure-results
           path: allure-results
-          retention-days: 20
+          retention-days: 10
 
       - name: Get Allure history
         uses: actions/checkout@v2
