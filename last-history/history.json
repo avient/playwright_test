@@ -1,14 +1,24 @@
 {
   "Chrome Stable tests/second.spec.ts two tests second 2 > 1" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 12,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "8728f1190f450139",
+      "reportUrl" : "https://avient.github.io/playwright_test/13//#testresult/8728f1190f450139",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveTitle(expected)\n\nExpected pattern: /Playwright1/\nReceived string:  \"Fast and reliable end-to-end testing for modern web apps | Playwright\"",
+      "time" : {
+        "start" : 1630672716112,
+        "stop" : 1630672723851,
+        "duration" : 7739
+      }
+    }, {
       "uid" : "606aa3d3a9b61ee5",
       "reportUrl" : "https://avient.github.io/playwright_test/12//#testresult/606aa3d3a9b61ee5",
       "status" : "broken",
@@ -135,11 +145,20 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "5c680365241264c1",
+      "reportUrl" : "https://avient.github.io/playwright_test/13//#testresult/5c680365241264c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630672705229,
+        "stop" : 1630672711772,
+        "duration" : 6543
+      }
+    }, {
       "uid" : "dbcfc1e3684b609a",
       "reportUrl" : "https://avient.github.io/playwright_test/12//#testresult/dbcfc1e3684b609a",
       "status" : "passed",
@@ -257,11 +276,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "7344ee048435fd8c",
+      "reportUrl" : "https://avient.github.io/playwright_test/13//#testresult/7344ee048435fd8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630672711772,
+        "stop" : 1630672712288,
+        "duration" : 516
+      }
+    }, {
       "uid" : "179839a0dbd417bd",
       "reportUrl" : "https://avient.github.io/playwright_test/12//#testresult/179839a0dbd417bd",
       "status" : "passed",
@@ -376,11 +404,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "ea20a9553ecda2c",
+      "reportUrl" : "https://avient.github.io/playwright_test/13//#testresult/ea20a9553ecda2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630672724222,
+        "stop" : 1630672724762,
+        "duration" : 540
+      }
+    }, {
       "uid" : "4cf3a27b09c6915b",
       "reportUrl" : "https://avient.github.io/playwright_test/12//#testresult/4cf3a27b09c6915b",
       "status" : "passed",
