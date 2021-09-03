@@ -69,10 +69,9 @@ jobs:
       - name: Replace report
         if: always()
         run: |
-          echo ${{ github.run_number }}
-          ls -lah
-          rm -R ${{ github.run_number }}
-          mv allure-report-temp ${{ github.run_number }}
+          ls -lah gh-pages
+          rm -R ./gh-pages/${{ github.run_number }}/
+          mv ./allure-report-temp ./gh-pages/${{ github.run_number }}
 
       - name: Deploy report to Github Pages
         if: always()
