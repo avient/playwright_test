@@ -1,7 +1,4 @@
 [ {
-  "buildOrder" : 15,
-  "reportUrl" : "https://avient.github.io/playwright_test/15/",
-  "reportName" : "Allure Report with history",
   "data" : {
     "Product defects" : 1
   }

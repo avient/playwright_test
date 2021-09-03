@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 15,
+  "reportUrl" : "https://avient.github.io/playwright_test/15/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 17243
+  }
+}, {
   "buildOrder" : 14,
   "reportUrl" : "https://avient.github.io/playwright_test/14/",
   "reportName" : "Allure Report with history",
