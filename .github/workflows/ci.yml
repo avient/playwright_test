@@ -21,7 +21,9 @@ jobs:
       - run: npm ci
       - run: npx playwright install
       - run: npm test
-      - run: npm run report
+      - name: Generate report
+        if: always()
+        run: npm run report
 
       - uses: actions/upload-artifact@master
         if: always()
