@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toHaveTitle(expected)\n\nExpected pattern: /Playwright1/\nReceived string:  \"Fast and reliable end-to-end testing for modern web apps | Playwright\"",
+      "children" : [ {
+        "name" : "2 > 1",
+        "uid" : "c7308fdf1ce72377",
+        "parentUid" : "eca4c432c5e762f1e9f6752a8d7e6b4a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1630675906455,
+          "stop" : 1630675915127,
+          "duration" : 8672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eca4c432c5e762f1e9f6752a8d7e6b4a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
