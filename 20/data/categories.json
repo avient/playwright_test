@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toHaveTitle(expected)\n\nExpected pattern: /Playwright1/\nReceived string:  \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\nCall log:\n  - expect.toHaveTitle with timeout 5000ms\n  - waiting for selector \":root\"\n  -   selector resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"dark\" data-rh=\"l…>…</html>\n  -   unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\n  -   selector resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"dark\" data-rh=\"l…>…</html>\n  -   unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\n  -   selector resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"dark\" data-rh=\"l…>…</html>\n  -   unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\n  -   selector resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"dark\" data-rh=\"l…>…</html>\n  -   unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\n  -   selector resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"dark\" data-rh=\"l…>…</html>\n  -   unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\n  -   selector resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"dark\" data-rh=\"l…>…</html>\n  -   unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\n  -   selector resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"dark\" data-rh=\"l…>…</html>\n  -   unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\n  -   selector resolved to <html lang=\"en\" dir=\"ltr\" data-theme=\"dark\" data-rh=\"l…>…</html>\n  -   unexpected value \"Fast and reliable end-to-end testing for modern web apps | Playwright\"\n",
+      "children" : [ {
+        "name" : "2 > 1",
+        "uid" : "b6f01049624b8b7d",
+        "parentUid" : "ec1ef6a364f8b94f896b66716d64d2e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650007878227,
+          "stop" : 1650007884755,
+          "duration" : 6528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec1ef6a364f8b94f896b66716d64d2e6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

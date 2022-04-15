@@ -1,0 +1,41 @@
+[ {
+  "uid" : "77a8818e87b4b966",
+  "name" : "1 > 2",
+  "time" : {
+    "start" : 1650007874947,
+    "stop" : 1650007875443,
+    "duration" : 496
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6619ac6891036adf",
+  "name" : "2 > 2 @smoke",
+  "time" : {
+    "start" : 1650007885116,
+    "stop" : 1650007885631,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a24f0eba6c40830d",
+  "name" : "1 > 1 @smoke",
+  "time" : {
+    "start" : 1650007867760,
+    "stop" : 1650007874947,
+    "duration" : 7187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6f01049624b8b7d",
+  "name" : "2 > 1",
+  "time" : {
+    "start" : 1650007878227,
+    "stop" : 1650007884755,
+    "duration" : 6528
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
