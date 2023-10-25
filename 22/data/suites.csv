@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Oct 25 08:03:51 UTC 2023","Wed Oct 25 08:03:55 UTC 2023","4221","Chrome Stable","tests/first.spec.ts","two tests one","","","1 > 1 @smoke",""
+"passed","Wed Oct 25 08:04:16 UTC 2023","Wed Oct 25 08:04:17 UTC 2023","567","Chrome Stable","tests/second.spec.ts","two tests second","","","2 > 2 @smoke",""
+"failed","Wed Oct 25 08:04:08 UTC 2023","Wed Oct 25 08:04:15 UTC 2023","6977","Chrome Stable","tests/second.spec.ts","two tests second","","","2 > 1",""
+"passed","Wed Oct 25 08:04:03 UTC 2023","Wed Oct 25 08:04:04 UTC 2023","578","Chrome Stable","tests/first.spec.ts","two tests one","","","1 > 2",""
