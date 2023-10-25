@@ -1,0 +1,31 @@
+[ {
+  "uid" : "fa2c0d3f04582273",
+  "name" : "1 > 2",
+  "time" : {
+    "start" : 1698220693133,
+    "stop" : 1698220694258,
+    "duration" : 1125
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "47d46cd2fc276745",
+  "name" : "two tests second",
+  "time" : {
+    "start" : 1698220687162,
+    "stop" : 1698220687171,
+    "duration" : 9
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2661b200b58ef900",
+  "name" : "1 > 1 @smoke",
+  "time" : {
+    "start" : 1698220689475,
+    "stop" : 1698220691209,
+    "duration" : 1734
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

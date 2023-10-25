@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "tests/second.spec.ts:6:3: Playwright Test did not expect test() to be called here.\nMost common reasons include:\n- You are calling test() in a configuration file.\n- You are calling test() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependenices in your package.json depends on @playwright/test.",
+      "children" : [ {
+        "name" : "two tests second",
+        "uid" : "47d46cd2fc276745",
+        "parentUid" : "b2cc3841742361243afb31fe138a5ab0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698220687162,
+          "stop" : 1698220687171,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2cc3841742361243afb31fe138a5ab0"
+    }, {
+      "name" : "Assertion error",
+      "children" : [ {
+        "name" : "1 > 1 @smoke",
+        "uid" : "2661b200b58ef900",
+        "parentUid" : "c5609fa276d82f3b8f1df22a2c8baa87",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698220689475,
+          "stop" : 1698220691209,
+          "duration" : 1734
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "1 > 2",
+        "uid" : "fa2c0d3f04582273",
+        "parentUid" : "c5609fa276d82f3b8f1df22a2c8baa87",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698220693133,
+          "stop" : 1698220694258,
+          "duration" : 1125
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c5609fa276d82f3b8f1df22a2c8baa87"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

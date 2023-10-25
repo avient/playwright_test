@@ -1,0 +1,138 @@
+[ {
+  "data" : {
+    "duration" : 7096
+  }
+}, {
+  "buildOrder" : 20,
+  "reportUrl" : "https://avient.github.io/playwright_test/20/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 17871
+  }
+}, {
+  "buildOrder" : 19,
+  "reportUrl" : "https://avient.github.io/playwright_test/19/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 21022
+  }
+}, {
+  "buildOrder" : 18,
+  "reportUrl" : "https://avient.github.io/playwright_test/18/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 16233
+  }
+}, {
+  "buildOrder" : 17,
+  "reportUrl" : "https://avient.github.io/playwright_test/17/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 20605
+  }
+}, {
+  "buildOrder" : 16,
+  "reportUrl" : "https://avient.github.io/playwright_test/16/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 11551
+  }
+}, {
+  "buildOrder" : 15,
+  "reportUrl" : "https://avient.github.io/playwright_test/15/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 17243
+  }
+}, {
+  "buildOrder" : 14,
+  "reportUrl" : "https://avient.github.io/playwright_test/14/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 20618
+  }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "https://avient.github.io/playwright_test/13/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 19533
+  }
+}, {
+  "buildOrder" : 12,
+  "reportUrl" : "https://avient.github.io/playwright_test/12/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 12601
+  }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "https://avient.github.io/playwright_test/11/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 13063
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "https://avient.github.io/playwright_test/10/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 6570
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "https://avient.github.io/playwright_test/9/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 8413
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "https://avient.github.io/playwright_test/8/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 8465
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://avient.github.io/playwright_test/7/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 12948
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "https://avient.github.io/playwright_test/6/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 6877
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "https://avient.github.io/playwright_test/5/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 13121
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "https://avient.github.io/playwright_test/4/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 7100
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "https://avient.github.io/playwright_test/3/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 9148
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "https://avient.github.io/playwright_test/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 6995
+  }
+} ]
