@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test'
 
 test.use({ headless: true, viewport: { width: 600, height: 900 } })
 
-test('two tests second', () => {
+test.describe('two tests second', () => {
   test('2 > 1', async ({ page }) => {
     await test.step('step', async () => {
       console.log('as')
